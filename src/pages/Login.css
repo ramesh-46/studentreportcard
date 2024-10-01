@@ -1,0 +1,83 @@
+/* src/pages/Login.css */
+
+body {
+    background-color: #f0f4f8; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background: linear-gradient(to right, #4a90e2, #7fd4ff); /* Gradient background */
+}
+
+.login-box {
+    background-color: rgb(248, 250, 254);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px; /* Fixed width for the box */
+    transition: transform 0.3s;
+}
+
+.login-box:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text for better readability */
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #777; /* Subtle subtitle color */
+    margin-bottom: 20px;
+}
+
+.login-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+}
+
+.login-button {
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effect */
+    width: 100%; /* Full width buttons */
+    display: flex; /* Center text */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+    transform: scale(1.05); /* Slightly grow on hover */
+}
+
+.login-button.google {
+    background-color: #6b216d; /* Google blue */
+}
+
+.login-button.facebook {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.login-button.microsoft {
+    background-color: #065248; /* Microsoft blue */
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #999; /* Footer text color */
+    margin-top: 20px;
+}

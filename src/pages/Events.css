@@ -1,0 +1,62 @@
+/* src/pages/Events.css */
+
+body {
+    background-color: #f0f4f8; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.events-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+}
+
+.events-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text for better readability */
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+}
+
+.event-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: calc(33.33% - 10px); /* Three cards per row */
+    transition: transform 0.3s;
+    margin:30px;
+}
+
+.event-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.event-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.event-title {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #4a90e2; /* Event title color */
+}
+
+.event-date {
+    font-size: 14px;
+    color: #999; /* Subtle date color */
+}
+
+.event-description {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333; /* Dark text for better readability */
+}

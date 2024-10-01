@@ -1,0 +1,140 @@
+/* Radiant background with 4 colors */
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #7b4397);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Animation to make the background dynamic */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.dashboard-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.dashboard-content button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-content button:hover {
+    background-color: #45a049;
+}
+/* Radiant background with 4 colors */
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #7b4397);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Animation to make the background dynamic */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.dashboard-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+/* General button styles */
+.dashboard-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Specific button colors and hover animations */
+.report-card-button {
+    background-color: #4caf50;
+}
+
+.report-card-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.gallery-button {
+    background-color: #2196f3;
+}
+
+.gallery-button:hover {
+    background-color: #1976d2;
+    transform: translateY(-3px);
+}
+
+.events-button {
+    background-color: #ff9800;
+}
+
+.events-button:hover {
+    background-color: #fb8c00;
+    transform: translateY(-3px);
+}
+
+.quiz-button {
+    background-color: #e91e63;
+}
+
+.quiz-button:hover {
+    background-color: #d81b60;
+    transform: translateY(-3px);
+}
+
+.logout-button {
+    background-color: #f44336;
+}
+
+.logout-button:hover {
+    background-color: #e53935;
+    transform: translateY(-3px);
+}
